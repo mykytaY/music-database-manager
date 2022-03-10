@@ -1,0 +1,60 @@
+body, html
+{
+    height: 100%;
+    width: 100%;
+}
+#bg-picture
+{
+    height: 100%;
+    background-image: url('musicpic.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    background-position: center;
+    background-attachment: fixed;
+}
+#body
+{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;
+    color: rgb(148, 90, 36);
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header>h1
+{
+    font-family: 'Lobster', cursive;
+    font-size: 50pt;
+    color: wheat;
+}
+#mainSection
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#container
+{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    border: 50px solid rgb(192, 183, 140);
+    background-color: rgb(192, 183, 140);
+    border-radius: 25px;
+}
+#customerView
+{
+    height: 90vh;
+    overflow: auto;
+    border: 50px solid rgb(192, 183, 140);
+    background-color: rgb(192, 183, 140);
+    border-radius: 25px;
+}
